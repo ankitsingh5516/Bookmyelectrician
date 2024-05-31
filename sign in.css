@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom right, #dddfdf, #b2f4f4d8);
+}
+
+.containers {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+#check:checked~.login {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.containers .form {
+    padding: 2rem;
+}
+
+.form header {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form input {
+    height: 60px;
+    width: 100%;
+    padding: 0 15px;
+    font-size: 17px;
+    margin-bottom: 1.3rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+
+.form input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form a {
+    font-size: 16px;
+    color: #66b4db;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+    color: #66b4db;
+}
+
+.form {
+    text-align: center;
+}
+
+.button {
+    height: 40px;
+    width: 60%;
+    text-align: center;
+    color: #fff;
+    background: #66b4db;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 1.7rem;
+    cursor: pointer;
+    transition: 0.4s;
+    border: none;
+}
+
+button:hover {
+    background: #1d5c7c;
+}
+
+.signup {
+    font-size: 17px;
+    text-align: center;
+}
+
+.signup label {
+    color: #66b4db;
+    cursor: pointer;
+}
+
+.signup label:hover {
+    text-decoration: underline;
+    color: #1d5c7c;
+}
+
+header {
+    padding: 10px;
+    background-color: #bbbbbb;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* .field {
+    position: relative;
+}
+
+.field input {
+    color: blue;
+    background: none;
+    padding: 2px solid #630104;
+}
+
+.field label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0.625rem 0.625rem;
+    color: #66b4db;
+    background-color: rgb(105, 241, 105);
+    padding-inline: 0.25rem;
+    border: 2px solid transparent;
+    pointer-events: none;
+    transition: translate 250ms;
+    background-color: 250ms;
+    border-color: 250ms;
+}
+
+.field:focus-within label,
+.field:not(:has(:placeholder-shown)) label {
+    translate: 0.625rem-1rem;
+    border-color: #030104;
+}
+
+.field::placeholder {
+    color: transparent;
+} */

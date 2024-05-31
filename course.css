@@ -1,0 +1,76 @@
+#Course {
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Course .box {
+    border: 2px solid brown;
+    padding: 10px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+#Course .box img {
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+#Course .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.btn {
+    justify-content: first baseline;
+    display: grid;
+}
+
+button {
+    padding: 5PX 10PX;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 50px;
+    height: 30px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+button.book {
+    background-color: #56d556;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
+}
+
+button.book:hover {
+    background-color: rgb(113, 225, 113);
+    color: black;
+}
+
+button.book:hover::after {
+    background-color: #333;
+}
+
+button.later {
+    background-color: #09670f;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    color: white;
+}
+
+button.later:hover {
+    background-color: #088178;
+    color: #040404;
+}

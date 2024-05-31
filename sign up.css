@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 140vh;
+    width: auto;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #f1f6f7, #a0e9f0d8);
+}
+
+#Registration_form {
+    padding-top: 100px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #1b1919;
+    padding: 15px;
+    background-color: rgb(161, 161, 161);
+    border-radius: 5PX;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: flex;
+    margin-top: 8px;
+    background-color: rgb(194, 221, 244);
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register {
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 15p;
+}
+
+.register:hover {
+    background-color: #45a049;
+}

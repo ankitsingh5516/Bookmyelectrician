@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="review.css" />
+    <link rel="stylesheet" href="BME.css" />
+</head>
+
+<body>
+    <section id="container">
+        <div>
+            <a href="BME.html"><img src="image/BME1.png" class="logo" alt="logo"></a>
+        </div>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="BME.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="review.html">Review</a></li>
+
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sign in.html">Login</a></li>
+                <a href="sigh up.html"><button class="Login">Sign Up</button></a>
+            </ul>
+        </div>
+    </section>
+    <main>
+        <section>
+            <!-- title -->
+            <div class="title">
+                <h2>our reviews</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- reviews -->
+            <article class="review">
+                <div class="img-container">
+                    <img src="./person-1.jpeg" alt="profile-img" id="person-img" />
+                </div>
+                <h4 id="author">sara jones</h4>
+                <p id="job"></p>
+                <p id="info"></p>
+                <div class="button-container">
+                    <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+                    <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+                </div>
+                <button class="random-btn">Check</button>
+            </article>
+        </section>
+    </main>
+    <!-- javascript -->
+    <script src="review.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+#service {
+    padding-top: 80px;
+}
+
+#services {
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 10px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: #f2f2f2;
+}
+
+#services .box img {
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+}
+
+.center {
+    text-align: center;
+}
+
+#services a {
+    color: rgb(19, 21, 50);
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#services p {
+    color: rgb(17, 28, 126);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#company {
+    padding-top: 25px;
+    background-image: url('company.png');
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    text-align: center;
+}

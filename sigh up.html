@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign up.css">
+    <link rel="stylesheet" href="BME.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section id="container">
+        <div>
+            <a href="BME.html"><img src="image/BME1.png" class="logo" alt="logo"></a>
+        </div>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="BME.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="review.html">Review</a></li>
+
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="sign in.html">Login</a></li>
+                <a href="sigh up.html"><button class="Login">Sign Up</button></a>
+            </ul>
+        </div>
+    </section>
+    <section id="Registration_form">
+
+        <form id="loginForm" action="registration.php" method="post">
+            <h3>Electrician Registration Form</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter Your Full Name" required>
+
+            <label for="Gender">Gender</label>
+            <input type="radio" id="Gender" name="Gender" value="Male">Male
+            <input type="radio" id="Gender" name="Gender" value="Female">Female
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Valid Email Id" required>
+
+            <label for="contact">Contact No:</label>
+            <input type="number" id="Mobile" name="Mobile" placeholder="Enter your Mobile No." required>
+
+            <label for="name">Address:</label>
+            <input type="contact" id="name" name="E_name" placeholder="Enter Address with Area Pincode" required>
+
+            <label for="aadhar">Aadhar No:</label>
+            <input type="number" id="aadhar" name="aadhar" pattern="[0-9]{12}" placeholder="Aadhar number must be 12 digits" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter Passward">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="Re-password" placeholder="Re-Enter Passward"><br>
+
+            <button class="Register" id="" value="Register" name="Register" onclick="submitForm()">Register Now</button>
+            <div class="signup">
+                <span class="signup">Already have an account? <a href="sign in.html">Login </a></span>
+            </div>
+        </form>
+        
+
+    </section>
+    <script src="BME.js"></script>
+</body>
+
+</html>
