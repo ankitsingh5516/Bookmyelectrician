@@ -1,0 +1,62 @@
+    #footer {
+    	padding: 10px;
+    	background-color: #0d1532f1;
+    	justify-content: space-between;
+    	display: flex;
+    	flex-direction: row;
+    }
+
+    address {
+    	text-align: center;
+    	text-emphasis-style: rgb(253, 253, 253);
+    }
+
+    .quick-link,
+    .social-links {
+    	margin-left: 20px;
+    	padding: 5px;
+    }
+
+    .social-links p,
+    .quick-link p {
+    	color: #fafafa;
+    	font-weight: 700;
+    	font-size: 25px;
+    	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .quick-link li {
+    	list-style: none;
+    }
+
+    .social-links a,
+    .dev p,
+    .dev a,
+    .quick-link a,
+    ADDress {
+    	font-family: Georgia, 'Times New Roman', Times, serif;
+    	font-weight: 500;
+    	font-size: 17px;
+    	margin: 10px;
+    	text-decoration: none;
+    	color: #fafafa;
+    	text-align: center;
+    }
+
+    .social-links li :hover,
+    .quick-link ul li :hover {
+    	color: red;
+    	font-size: 17.5px;
+    }
+
+    .dev {
+    	padding: 0px 50px;
+    	background-color: #061341f1;
+    	justify-content: space-between;
+    	display: flex;
+    	flex-direction: row;
+    }
+
+    .map:hover {
+    	transform: scale(1.1);
+    }

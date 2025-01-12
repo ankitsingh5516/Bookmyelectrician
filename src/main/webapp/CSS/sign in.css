@@ -1,0 +1,110 @@
+#check:checked~.login {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.containers .form {
+    padding: .5rem;
+}
+
+.form input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.form input,
+.from label,
+.form textarea {
+    font-size: 14px;
+}
+
+.form a {
+    font-size: 14px;
+    color: #66b4db;
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+    color: #3106cf;
+}
+
+.form {
+    text-align: left;
+}
+
+.button {
+    height: 40px;
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    background: #66b4db;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.4s;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #1d5c7c;
+    font-size: 1.3rem;
+}
+
+.signup {
+    padding: 2px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.signup label {
+    color: #66b4db;
+    cursor: pointer;
+}
+
+.signup label:hover {
+    text-decoration: underline;
+    color: #1d5c7c;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #bbbbbb;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login-in-from,
+.Registration_form,
+.Forget-form {
+    padding-top: 100px;
+    background-color: #83bdda;
+    padding-bottom: 20px;
+}
+
+.sign-in-form,
+.sign-up-form {
+    padding: 40px;
+    background-color: #fff;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    /* box-sizing: border-box; */
+    text-align: center;
+    max-width: 830px;
+    width: 100%;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.radio-button {
+    display: flex;
+}

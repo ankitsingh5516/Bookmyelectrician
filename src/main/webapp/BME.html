@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BME</title>
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="BME.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section id="container">
+        <div>
+            <a href="BME.html"><img src="image/logo/BME-logo.png" class="logo" alt="logo"></a>
+        </div>
+        <div>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="BME.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li class="dropdown">
+                        <a href="#services" class="dropbtn">Login</a>
+                        <div class="dropdown-content">
+                            <a href="userLogin.html">User Login</a>
+                            <a href="ElectricianLogin.html"> Electrician login</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#services" class="dropbtn">Register</a>
+                        <div class="dropdown-content">
+                            <a href="userRegister.html">As User</a>
+                            <a href="ElectricianRegister.html"> As Electrician</a>
+                        </div>
+                    </li>
+            </nav>
+            </ul>
+        </div>
+    </section>
+    <section id="back">
+        <div>
+            <div class="welcome">
+                <h3 class="h3-p">Welcome to </h3>
+                <h1 class="h1-j">Book My Electrician</h1>
+                <h2 class="h2-p">All in One Electrical Solution.</h2>
+            </div>
+            <p class="pri">Here all kind of Electrician are Available @ Affordable price at your Door. </p>
+        </div>
+        <div class="main">
+            <div class="icon">
+                <div class="electrician">
+                    <i><img src="image/logo/user.png" alt="user logo"></i>
+                    <p>User</p>
+
+                </div>
+            </div>
+            <div id="Loaction">
+                <h1>Request for an Electrician</h1>
+                <div>
+                    <form>
+                        <label for="Loaction">Loaction</label>
+                        <input id="map" type="text" placeholder="Enter service Loaction." required>
+                        <label for="Service">Service For</label>
+                        <select id="service" name="service" class="form-control" required>
+							<option value="" selected>Please select service type</option>
+							<option value="AC Installation">AC Installation</option>
+							<option value="AC Repair & Service">AC Repair & Service</option>
+							<option value="Celling fan/Switches/socket/light/ installation">Celling
+								fan/Switches/socket/light/ installation</option>
+							<option value="Chimminy installation">Chimminy installation</option>
+							<option value="Chimminy Repair">Chimminy Repair</option>
+							<option value="Drill & Hanging Wall design">Drill & Hanging Wall design</option>
+							<option value="Geyser installation">Geyser installation</option>
+							<option value="Geyser Repair & Service">Geyser Repair & Service</option>
+							<option value="Invertor service & Repair">Invertor service & Repair</option>
+							<option value="Micriwave Repair & Service">Micriwave Repair & Service</option>
+							<option value="Refrigerator Repair">Refrigerator Repair</option>
+							<option value="Ro Installation">RO Installation</option>
+							<option value="Ro Repair">RO Repair</option>
+							<option value="Sub-Meter installation ">Sub-Meter installation/Change</option>
+							<option value="Tellivision Repair & Service">Tellivision Repair & Service</option>
+							<option value="Washing Machine repair & Service">Washing Machine repair & Service</option>
+						</select>
+                        <div class="btn">
+                            <button type="submit" class="book" onclick="book()">Book Now</button>
+                            <button type="menu" class="later">Schedule For Later</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section>
+        <div class="Reliable-elect">
+            <div>
+                <img src="image/electrician.jpg" alt="electrician">
+            </div>
+            <div>
+                <h2>Reliable Electrician Services at Your Doorstep</h2>
+                <p>&#8618; We offer prompt and professional electrical services to homes and businesses in your local area.</p>
+                <p>&#8618; Our team of experienced and licensed electricians are available <b>24/7</b> to handle all your electrical needs, from minor repairs to complete installations.</p>
+                <p>&#8618; Whether you need an emergency fix or a scheduled maintenance, we'll be there to ensure your electrical systems are safe and functioning efficiently.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="Safety">
+
+            <div>
+                <h2>Focused on Safety</h2>
+                <p>&#11030 5+ years of experienced electrician</p>
+                <p>&#11030 All Electrician is varified by BME</p>
+                <p>&#11030 Use of High-Quality Equipment</p>
+                <p>&#11030 Emergency Protocol</p>
+
+
+            </div>
+
+            <div class="safety-inner">
+
+                <div>
+                    <img src="image/certifiedElectrician.jpg" alt="certifiedElectrician">
+                    <p>Electrician have 5+ years of Experience <br> & verified by <b>BME</b> .</p>
+                </div>
+                <div>
+                    <img src="image/100+ city.png" alt="100+ city">
+                    <p>Service in <b>50+</b> Cities</p>
+                </div>
+            </div>
+            <div>
+                <img src="image/Safety.jpg" alt="safety">
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+        <h2> For any Query</h2>
+        <div id="contact-box">
+            <form action=QueryServlet method="get">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <label for="Mobile">Mobile</label>
+                <input type="text" id="Mobile" name="mobile" placeholder="Enter your Mobile No." required>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Enter your Email id" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="How may i help you......." required></textarea>
+                <button id="submit" type="submit" value="submit-query">Submit</button>
+                <button id="reset" type="reset">Reset</button>
+            </form>
+        </div>
+    </section>
+    <div data-wow-delay="0.1s">
+        <aside>
+            <div id="footer">
+                <div class="quick-link">
+                    <p>Quick links</p>
+                    <ul>
+                        <li><a href="BME.html">&#8667; Home</a></li>
+                        <li><a href="#">&#8667; About</a></li>
+                        <li><a href="service.html">&#8667; Service</a></li>
+                        <li><a href="review.html">&#8667; Review</a></li>
+                        <li><a href="contact.html">&#8667; Contact Us</a></li>
+                        <li><a href="#">&#8667; Login</a></li>
+                        <li><a href="#">&#8667; Sign Up</a></li>
+
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <p>Social Media Link</p>
+                    <div>
+                        <li class="fa fa-facebook" style="font-size:30px;color:#1456f1">
+                            <a href="https://www.facebook.com/bookmyelectrician" target="_blank"> Bookmyelectrician</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="fa fa-instagram" style="font-size:30px;color:red">
+                            <a href="https://www.instagram.com/bookmyelectrician/" target="_blank">Bookmyelectrician</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="fa fa-whatsapp" style="font-size:30px;color:rgb(9, 128, 21)">
+                            <a href="https://wa.me/8447492085" target="_blank">8447492085</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="fa fa-envelope" style="font-size:27px;color:red">
+                            <a href="mailto:bookmyelectrician1@gmail.com" target="_blank">Bookmyelectrician1@gmail.com</a>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="fa fa-phone" style="font-size:33px;color:#1456f1">
+                            <a href="tel:+918447492085">8447492085</a>
+                        </li>
+                    </div>
+
+                </div>
+                <div>
+
+                    <address>
+					<iframe id="map-canvas" class="map" width="300" height="250" frameborder="0" scrolling="no"
+						marginheight="0" marginwidth="0"
+						src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=JAI DURGE ELECTRICALS JFM4+4M3, Lal Kuan, Ghaziabad, Uttar Pradesh 201009&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+						Powered by <a href="https://embedgooglemaps.com">embed google maps html</a> and <a
+							href="https://starburstnotongamstop.org/">starburst not on gamstop</a></iframe>
+				</address>
+                    <ADDress><b> Add:- </b> Shop 4, Payal Markeet , Near AXIS Bank ATM Chipiyana Road, Lal Kuan Ghaziabad.
+				</ADDress>
+                </div>
+            </div>
+        </aside>
+        <footer>
+            <div class="dev">
+                <div>
+                    <p>&copy; 2024 BME All Right Reserved.</p>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/ankitsingh5516/"><b>Developed by-</b> Er Ankit Singh</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="BME.js"></script>
+</body>
+
+</html>
